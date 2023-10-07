@@ -1,22 +1,25 @@
 #!/bin/bash
 
 
+# Handle error(s) if there is/are any
+check_exit_status(){
+    error=$?
+    if [[ $error -ne 0 ]]
+    then
+        echo -e "\033[31mFailed to create $each_project. Error received: $error\033[0m"
+        echo "Failed to create $each_project. Error received: $error" > ./webstarter-error-file.log
+    fi
+}
+
 # Web starter function
-function startWeb(){
+start_web(){
 
     # Create starter files for each directory
     for each_project in "${@:2}"
     do
         mkdir "$each_project" # Make as many directories as per arguments
         cd "$each_project" || exit 1 # Enter each directory created or exit program if there's an error
-
-        # Handle error(s) if there is/are any
-        error=$?
-        if [[ $error -ne 0 ]]
-        then
-            echo -e "\033[31mFailed to create $each_project. Error received: $error\033[0m"
-            echo "Failed to create $each_project. Error received: $error" > ./webstarter-error-file.log
-        fi
+        check_exit_status
 
         # Creating HTML, CSS and JS directories and files
         touch index.html
@@ -44,21 +47,14 @@ h1,\nh2,\nh3,\nh4,\nh5,\nh6,\np {\n    margin: 0;\n}" > styles/main.css
 
 
 # Shell script starter function
-function startShell(){
+start_shell(){
 
     # Create starter file for each directory
     for each_project in "${@:2}"
     do
         mkdir "$each_project" # Make as many directories as per arguments
         cd "$each_project" || exit 1 # Enter each directory created or exit program if there's an error
-
-        # Handle error(s) if there is/are any
-        error=$?
-        if [[ $error -ne 0 ]]
-        then
-            echo -e "\033[31mFailed to create $each_project. Error received: $error\033[0m"
-            echo "Failed to create $each_project. Error received: $error" > ./shellstarter-error-file.log
-        fi
+        check_exit_status
 
         # Creating Shell file
         touch "$each_project".sh
@@ -74,10 +70,10 @@ function startShell(){
 # Running program based on what flag is passed
 if [[ $1 == "-w" || $1 == "--web" ]]
 then
-    startWeb "$@"
+    start_web "$@"
 elif [[ $1 == "-s" || $1 == "--shell" ]]
 then
-    startShell "$@"
+    start_shell "$@"
 elif [[ ! $1 =~ [-] ]]
 then
     echo -e "\033[31mError: Command must use a flag.\033[0m"

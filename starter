@@ -76,7 +76,7 @@ then
     start_shell "$@"
 elif [[ ! $1 =~ [-] ]]
 then
-    echo -e "\033[31mError: Command must use a flag.\033[0m"
+    echo -e "\033[31mError: Command must use a flag and an argument.\033[0m"
 else
     echo -e "\033[31mError: Invalid flag, use -w for web files && -s for shell files.\033[0m"
 fi

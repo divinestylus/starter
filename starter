@@ -43,6 +43,7 @@ h1,\nh2,\nh3,\nh4,\nh5,\nh6,\np {\n    margin: 0;\n}" > styles/main.css
 
         cd .. # Go back to parent folder
     done
+    echo "You created $(($# -1)) project(s)"
 }
 
 
@@ -64,6 +65,7 @@ start_shell(){
 
         cd .. # Go back to parent folder
     done
+    echo "You created $(($# -1)) project(s)"
 }
 
 

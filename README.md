@@ -1,5 +1,5 @@
 # Starter
-## A Shell Application for Starter Files
+<code>starter</code> is an 
 
 Ever got fustrated with recreated your files from scratch every time you have project? 
 

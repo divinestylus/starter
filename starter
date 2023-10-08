@@ -43,7 +43,7 @@ h1,\nh2,\nh3,\nh4,\nh5,\nh6,\np {\n    margin: 0;\n}" > styles/main.css
 
         cd .. # Go back to parent folder
     done
-    echo "\033[32mYou created $(($# -1)) web project(s)\033[32m"
+    echo -e "\033[32mYou created $(($# -1)) web project(s)\033[32m"
 }
 
 

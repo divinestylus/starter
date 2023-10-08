@@ -1,6 +1,6 @@
 # Starter
 
-**`starter`** saves you time by giving you boilerplate code for your projects. 
+**`starter`** is a boilerplate code generator. 
 
 Ever got fustrated with recreated your files from scratch every time you have project? 
 
@@ -10,7 +10,7 @@ Ever got fustrated with recreated your files from scratch every time you have pr
 + Usage
 
       NAME
-        starter - OPTION FILENAME
+        starter - a boilerplate code generator
 
       SYNOPSIS
         starter - OPTION FILENAME 

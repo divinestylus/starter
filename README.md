@@ -2,7 +2,7 @@
 
 **`starter`** is a boilerplate code generator. 
 
-Ever got fustrated with recreated your files from scratch every time you have project? 
+Ever got fustrated with recreated your files from scratch every time you have project(s)? Starter saves you time by giving you boilerplate code for your projects. 
 
 
 ### Usage

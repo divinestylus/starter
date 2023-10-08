@@ -5,7 +5,7 @@
 Ever got fustrated with recreated your files from scratch every time you have project(s)? Starter saves you time by giving you boilerplate code for your projects. 
 
 
-### Usage
+## Usage
 
 + Usage
 
@@ -23,9 +23,15 @@ Ever got fustrated with recreated your files from scratch every time you have pr
 
 
 
+## Installation
 
+## Liscence
 
+## How to Contribute
 
-### Installation
+## Acknowledgement 
+
+## Donations
+
 
 ###### &copy;2023 Designed & Developed by [Sam B. Morris](https://github.com/divinestylus)

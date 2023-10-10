@@ -50,4 +50,4 @@ MIT License
 ## Acknowledgement 
 There are a couple of people who inspired me to build this script. Firstly, I would like to thank [Varma Cephas](https://github.com/varma-cephas), one of the most self-determined programmers I know, for sharing this idea with me. Secondly, with my current skill set, I would like to thank [Nathan Tangaye Siafa](https://github.com/tangaye) for his reassurance that such a task and even more are possible. Finally, my wholehearted appreciation goes to [Benjamin A. Ngafua](https://github.com/benjaminangafua) for his guidance in ensuring quality code standards.
 ## Credit
- &copy;2023 Designed & Developed by [Sam B. Morris](https://github.com/divinestylus)
+ &copy;2023 Designed & Developed by [Sam B. Morris](https://github.com/divinestylus).

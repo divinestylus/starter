@@ -1,4 +1,8 @@
-# Starter
+<br>
+
+<img src="assets/starter-01.png" width="200px">
+
+<br>
 
 **`starter`** is a boilerplate code generator. 
 

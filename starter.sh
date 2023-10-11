@@ -31,7 +31,7 @@ start_web(){
 </body>\n</html>" > index.html
 
         # CSS boilerplate code
-        echo -e ":root {\n    --primaryColor: #ffffff;\n    --secondaryColor: #ffffff;\n    --accentColor: #ffffff;\n     --neutralColor: #ffffff;\n    --font: sans-serif;\n}
+        echo -e ":root {\n    --primaryColor: #ffffff;\n    --secondaryColor: #ffffff;\n    --accentColor: #ffffff;\n    --neutralColor: #ffffff;\n    --font: sans-serif;\n}
 
 html {\n    box-sizing: border-box;\n}
 

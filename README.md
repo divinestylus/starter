@@ -17,7 +17,7 @@ Ever gotten frustrated with recreating your files from scratch every time you ha
         starter - a boilerplate code generator
 
       SYNOPSIS
-        starter - OPTION FILENAME 
+        starter - OPTION SOURCE...
 
 + Options
 
